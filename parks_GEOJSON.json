@@ -1,0 +1,161 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.97920403083667,
+                    40.69757202341063
+                ]
+            },
+            "properties": {
+                "name": "Commodore Barry Park"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.97349689659993,
+                    40.690206830228135
+                ]
+            },
+            "properties": {
+                "name": "Fort Greene Park"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.97156701366978,
+                    40.69376077946356
+                ]
+            },
+            "properties": {
+                "name": "Oracle Playground"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98148728235603,
+                    40.69067633411401
+                ]
+            },
+            "properties": {
+                "name": "University Place"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.97174278866792,
+                    40.689228674596826
+                ]
+            },
+            "properties": {
+                "name": "Edmonds Playground"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98225021076478,
+                    40.68521931484296
+                ]
+            },
+            "properties": {
+                "name": "North Pacific Playground"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.97051714155904,
+                    40.690641965222014
+                ]
+            },
+            "properties": {
+                "name": "Albert J. Parham Playground"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98100300075731,
+                    40.68673520286452
+                ]
+            },
+            "properties": {
+                "name": "Sixteen Sycamores Playground"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98074798784292,
+                    40.696011760818095
+                ]
+            },
+            "properties": {
+                "name": "Arbor Place"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.97646882855334,
+                    40.69727699560936
+                ]
+            },
+            "properties": {
+                "name": "Oxport Playground"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.97916335525728,
+                    40.686913795151256
+                ]
+            },
+            "properties": {
+                "name": "Bkln Bears Rockwell Pl Garden"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9726784757686,
+                    40.68577902532171
+                ]
+            },
+            "properties": {
+                "name": "Cuyler Gore Park"
+            }
+        }
+    ]
+}
