@@ -1,5 +1,9 @@
 # know_nyc
-This script provides an in-depth analysis of various aspects of a neighborhood in New York City, including rat reports, air pollution, demographics, nearby subway stations, parks, and crime statistics. The user inputs their address and receives relevant data about their neighborhood.
+
+main.py provides an in-depth analysis of various aspects of a neighborhood in New York City, including rat reports, air pollution, demographics, nearby subway stations, parks, and crime statistics. The user inputs their address and receives relevant data about their neighborhood. This script also works collaboratively with the Google Places API, which takes user geolocation and compares against the data retrived from the Socrata API. 
+
+getschools.py finds schools near a given address in New York City. The program provides a list of schools in the user's zip code and borough. Users can filter the results to show only public schools if desired.
+
 
 ## Dependencies
 
