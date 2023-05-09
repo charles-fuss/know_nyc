@@ -15,9 +15,12 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 # Unauthenticated client only works with public data sets. Note 'None'
 # in place of application token, and no username or password:
-client = Socrata("data.cityofnewyork.us", 'ZUp9DH0xobMfk9OoRPHREFoIm',
-                username='charlesfuss4@gmail.com',
-                password='Syntax123!')
+apikey = ''
+username = ''
+password = ''
+client = Socrata("data.cityofnewyork.us", apikey,
+                username=username,
+                password=password)
 
 def addr_to_ordinal(address):
     ordinal = lambda n: "%d%s" % (n,"tsnrhtdd"[(n//10%10!=1)*(n%10<4)*n%10::4])
@@ -38,8 +41,9 @@ def addr_to_ordinal(address):
 
 
 # Uses Google's Geocoder API to locate addresses and return a postal code + borough.
+apikey_google = ''
 def find_address(address, flag):
-    API_KEY = 'AIzaSyApeNsbncrLyjKJw3itJHXyYLLdgBAi-Z4'
+    API_KEY = apikey_google    
     # Ensures that only street addresses are put in ordinal structure
     stripped_school_address = re.sub(r"\s+", '%', address)
     # Prepares the API query
