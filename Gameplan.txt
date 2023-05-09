@@ -1,9 +1,0 @@
-PARKS/SUBWAYS
-- put json in geojson
-- use geojson example to render data
-	https://docs.mapbox.com/mapbox-gl-js/example/external-geojson/
-
-CRIME/RATS
-- render other data as big ahh circles with the amount of crime/whatever in it with the circles
-proportional to the size of the circle
-	- can also do pie charts/bar charts to show diff crimes/watever
