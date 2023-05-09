@@ -8,9 +8,12 @@ import pandas as pd
 import math, json
 
 # Unauthenticated client only works with public data sets. Note: remember to remove credentials
-client = Socrata("data.cityofnewyork.us", 'ZUp9DH0xobMfk9OoRPHREFoIm',
-                username='charlesfuss4@gmail.com',
-                password='Syntax123!')
+apikey = ''
+username = ''
+password = ''
+client = Socrata("data.cityofnewyork.us", apikey,
+                username=username,
+                password=password)
 
 # converts JSON to GEOJSON (for mapbox compatability)
 def toGeoJSON(inputFile, outputFile):
